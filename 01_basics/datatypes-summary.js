@@ -37,4 +37,35 @@ const myFunction = function(){
     
 }
 
-console.log(typeof isEmail );
+// console.log(typeof isEmail );
+
+
+// Stack : Primitive ; Heap : Non Primitive
+
+let myname = "Awanish"
+let yourName = myname
+
+myname = "hurunda"
+
+
+
+console.log(myname)
+console.log(yourName);
+
+user  = {
+
+    name : "gunda",
+    age : 22
+}
+
+let anotherUser = user
+
+user.name = "mithun"
+
+console.log(user.name);
+console.log(anotherUser.name);
+
+
+
+
+
