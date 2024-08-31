@@ -16,7 +16,7 @@ let state;
 // boolean => true or false
 // null => standalone value
 // undefined
-// symbol 
+// symbol => unique
 
 // object
 
